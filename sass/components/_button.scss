@@ -1,4 +1,4 @@
-.button-service{
+.button{
     color: var(--accent-color); 
     background-color: var(--logo-color);
     font-size: 16px;
@@ -19,8 +19,8 @@
  
  }
  
- .button-service:hover,
- .button-service:focus {
+ .button:hover,
+ .button:focus {
    background-color: #188CE8;
  
  }

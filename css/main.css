@@ -1,13 +1,5 @@
 @charset "UTF-8";
-/*цвет основного текста: #212121*/
-/*вторичный цвет текста: #757575; */
-/*белый color:#FFFFFF;*/
-/*Акцент background: #2F303A;*/
-/* фон  основной  background: #E5E5E5;  */
-/* Фон  чем заменяется Основной  : #E5E5E5; */
-/* фон наша команда background: #F5F4FA  */
-/*base style*/
-.body {
+body {
   margin: 0;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;

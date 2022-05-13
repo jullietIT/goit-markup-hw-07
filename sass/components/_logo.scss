@@ -1,7 +1,7 @@
 /*logo*/
 
 .logo{
-    color: var(--logo-color);
+    color:  $logo-color;
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
@@ -12,6 +12,6 @@
   }
      
   .logo__black{
-     color: var(--primary-text-color);
-     margin-top: 32px;
-  }
+   color: $primary-bg-color;
+   margin-top: 32px;
+}
