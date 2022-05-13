@@ -91,15 +91,18 @@ img {
 
 .hero {
   background-color: var(--color-block);
+
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background-image.jpg");
   background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
   padding: 200px 0;
   margin: 0 auto;
-  color: #ffffff;
+  
   max-width: 1600px;
   margin: 0 auto;
+
   text-align: center;
   background-position: center;
 }
@@ -189,7 +192,7 @@ img {
 }
 
 .menu__link--active {
-  color: var(--logo-color);
+  
   padding: 32px 0;
   position: relative;
 }
@@ -276,17 +279,6 @@ img {
   margin-right: 10px;
 }
 
-.contact__link:hover,
-.contact__link:focus,
-.contact__link-mail:hover,
-.contact__link-mail:focus,
-.contact__link-telefon:hover,
-.contact__link-telefon:focus,
-.contact__icon-mail:hover,
-.contact__icon-mail:focus,
-.contact__icon-phone:hover .contact__icon-phone:focus {
-  color: var(--logo-color);
-}
 
 /* Наша команда */
 .user {
