@@ -19,7 +19,7 @@
     margin-right: 0px;
   } 
     
-  .user-command {
+  .title {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -61,9 +61,7 @@
   
    /* соцсети */
    .icon{
-  display: flex;
-  align-items: center;
-  justify-content:center;
+  @extend %flex-centered
   
     }
    

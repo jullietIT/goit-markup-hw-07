@@ -16,8 +16,6 @@
    margin-right:50px;
   }
 
-
-
 .menu {
    padding-inline-start: 0px;
    font-size:14px;
@@ -35,7 +33,7 @@
   display: block;
   font-style: Medium;
   line-height:1.1;
-  color:var(--primary-text-color);
+  color:$primary-text-color;
   padding: 32px 0;
 
 }
@@ -78,7 +76,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 
 /*контакты*/
-.auth-nav{
+.contact{
   display: flex;
   margin-left: auto;
   padding-left: 0;
@@ -89,17 +87,18 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-right:50px;
    }
 
-.auth-nav__item{
+.contact__item{
   margin-top:0 ;
   margin-bottom: 0;
   padding-left: 0;
  }
    
-.auth-nav .auth-nav__item:not(:last-child) {
+.contact .contact__item:not(:last-child)
+ {
   margin-right:50px;
 }
 
-.auth-nav__mail{
+.contact__mail{
   display: inline-block;
   width: 16px;
   height: 12px;
@@ -107,20 +106,19 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 10px;
 
 }
-.auth-nav__phone{
+.contact__phone{
 width: 10px;
 height: 16px;
 padding: 30px 0;
 margin-right: 10px;
 }
 
-.auth-nav__link-mail,
-.auth-nav__link-telefon {
+.contact__link-mail,
+.contact__link-telefon {
   display: block;
   padding:  32px 0;
   color:var(--title-text-color);
   
-
   display: flex;
   align-items: center;
 
@@ -129,21 +127,20 @@ margin-right: 10px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- .auth-nav__icon-phone,
- .auth-nav__icon-mail
-  {
+ .contact__icon-phone,
+ .contact__icon-mail  {
    margin-right: 10px;}
 
-.auth-nav__link:hover,
-.auth-nav__link:focus,
-.auth-nav__link-mail:hover,
-.auth-nav__link-mail:focus,
-.auth-nav__link-telefon:hover,
-.auth-nav__link-telefon:focus,
-.auth-nav__icon-mail:hover,
-.auth-nav__icon-mail:focus,
-.auth-nav__icon-phone:hover
-.auth-nav__icon-phone:focus{
+.contact__link:hover,
+.contact__link:focus,
+.contact__link-mail:hover,
+.contact__link-mail:focus,
+.contact__link-telefon:hover,
+.contact__link-telefon:focus,
+.contact__icon-mail:hover,
+.contact__icon-mail:focus,
+.contact__icon-phone:hover
+.contact__icon-phone:focus{
  color: var(--logo-color);
 }
 

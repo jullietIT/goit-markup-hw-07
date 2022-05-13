@@ -1,23 +1,23 @@
 /*Постоянные клиенты */
-.company{
+.clients{
     display: flex;
   align-items: center;
   justify-content:center; 
   
   }
-  .company-list{
+  .clients-list{
   margin-right: 30px;
   width: 170px;
   height: 92px;
   
   }
   
-  .company-list:nth-child(6) {
+  .clients-list:nth-child(6) {
     margin-right: 0px;
   }
    
-  .company-item:hover,
-  .company-item:focus{ 
+  .clients__link:hover,
+  .clients__link:focus{ 
   fill: currentColor;
   color:var(--logo-color);
   border: 1px solid var(--logo-color);
@@ -26,7 +26,7 @@
   
   
   
-  .company-item{
+  .clients__link{
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -45,7 +45,7 @@
   
   }
   
-  .company-clients{
+  .clients__block{
   text-align: center;
   
   width: 106px;
@@ -53,7 +53,7 @@
   
   
   }
-   .company-link{
+   .clients__logo{
    display: flex;
   align-items: center; 
   justify-content: center;

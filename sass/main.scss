@@ -1,6 +1,7 @@
 @import "./utils/variables";
+
 @import "./components/base";
-@import "../components/logo";
+@import "./components/logo";
 @import "./components/hero";
 @import "./components/button";
 @import "./components/header";
@@ -9,5 +10,12 @@
 @import "./components/features";
 @import "./components/modal";
 @import "./components/portfolio.scss";
-@import "../components/project";
+@import "./components/project";
 @import "./components/footer";
+
+
+
+
+
+/*placeholders*/ 
+@import"./plaseholders/flex--centered";

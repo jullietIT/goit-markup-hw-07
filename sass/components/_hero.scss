@@ -4,7 +4,7 @@
     padding-bottom: 94px;
   }
   
-  .section-hero{
+  .hero{
      background-color:var(--color-block);
      background-image: linear-gradient( to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-image.jpg");
      background-repeat: no-repeat; 
@@ -12,23 +12,23 @@
    
      padding: 200px 0;
      margin: 0 auto;
-     color: var(--accent-color);
+     color: $accent-color;
   
-    max-width: 1600px; 
-    margin: 0 auto;
-    text-align: center;
-   background-position: center;
+     max-width: 1600px; 
+     margin: 0 auto;
+     text-align: center;
+     background-position: center;
   
+       &__title{
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1.4;
+        letter-spacing: 0.06em;
+    
+        text-align: center;
+        margin-bottom: 30px;
+     
+     }
   }
   
-  .section-title{
-  
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-  text-align: center;
-  margin-bottom: 30px;
-  
-  }
