@@ -5,7 +5,7 @@
 @import "./components/site-nav";
 @import"./components/hero";
 @import"./components/work";
-
+@import"./components/command";
 @import"./components/clients";
 
 
@@ -151,118 +151,7 @@ img {
     left: -200px;
   }
 
-  /* Наша команда */
-.user{
-  background-color: $color-button;
-}
-
-.feature {
-    display: flex;
-}
-
-.feature-command{
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  width: 270px;
-   margin-right: 30px;
-  background-color: $accent-color;
-
-}
-
-.feature-command:nth-child(4){
-  margin-right: 0px;
-} 
-  
-.user-command {
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-   
-.command-foto{
-  width: 270px;
-}
-
-.user-text{
-  padding: 30px 0;  
-}
-
-.user-name {
-  margin-bottom: 10px;
-
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height:1.2;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-.user-prof{
-   color:$title-text-color;
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 1.2;
-   letter-spacing: 0.03em;
-   text-align: center;
-   margin: 0;
-   margin-bottom: 16px;
-}
-
- /* соцсети */
- .icon{
-display: flex;
-align-items: center;
-justify-content:center;
-
-  }
  
-.icon-list{
-margin-right: 10px;
-box-sizing: border-box;
-width: 44px;
-height: 44px;
-}
-
-.icon-list :nth-child(4){
-  margin-right: 0px;
-}
-
-.icon-hover{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  height: 100%;
-  color:$color-icon;
-  border-radius: 50px;
-
-
-  transition: color  250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-    
-
-.icon-item{
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
- 
- }
-
-.icon-hover:hover,
-.icon-hover:focus{
-  fill: currentColor;
-  color:$accent-color;
-  background-color:#2196F3;
-}
-
-
-
-
 
 
 
