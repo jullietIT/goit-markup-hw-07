@@ -1,0 +1,61 @@
+
+/*main-index шапка*/
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .hero{
+     background-color:$color-block;
+     background-image: linear-gradient( to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-image.jpg");
+     background-repeat: no-repeat; 
+     background-size: cover; 
+   
+     padding: 200px 0;
+     margin: 0 auto;
+     color: $accent-color;
+  
+     max-width: 1600px; 
+     margin: 0 auto;
+     text-align: center;
+     background-position: center;
+
+            &_title{
+                font-size: 44px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 1.4;
+                letter-spacing: 0.06em;
+                text-align: center;
+                margin-bottom: 30px;
+  
+             }
+  
+  }
+  
+  .button-service{
+     color: $accent-color; 
+     background-color: $logo-color;
+     font-size: 16px;
+     font-style:normal;
+     font-weight: 700;
+     line-height: 1.9;
+     text-align: center;
+     cursor: pointer;
+   
+  
+     border-radius: 4px;
+     padding: 10px 32px;
+     border:transparent;
+  
+     transition-property: background-color;
+     transition-duration: 250ms;
+     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+  
+  .button-service:hover,
+  .button-service:focus {
+    background-color: #188CE8;
+  
+  }

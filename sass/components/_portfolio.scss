@@ -1,55 +1,10 @@
 
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@jullietIT 
-jullietIT
-/
-goit-markup-hw-06
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-goit-markup-hw-06/css/styles.css
-@jullietIT
-jullietIT 1
-Latest commit 9a17d50 yesterday
- History
- 1 contributor
-935 lines (703 sloc)  14.3 KB
-   
 
 @import '../css/modal.css';
 
 
-:root{
-  --primary-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-color: #ffffff;
-  --logo-color: #2196f3;
-  --primary-bg-color: #e5e5e5;
-  --color-block:#2F303A;
-  --color-button: #F5F4FA;
-  --color-icon:  #AFB1B8;
-}
-/*цвет основного текста: #212121*/
-/*вторичный цвет текста: #757575; */
-/*белый color:#FFFFFF;*/
-/*Акцент background: #2F303A;*/
-/* фон  основной  background: #E5E5E5;  */
-/* Фон  чем заменяется Основной  : #E5E5E5; */
-/* фон наша команда background: #F5F4FA  */
-/*base style*/
+
+
 .body{
   margin: 0;
  color:var(--primary-text-color);
