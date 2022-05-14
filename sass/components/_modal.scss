@@ -62,7 +62,7 @@
      width: 30px;
      height: 30px;
      padding: 0;
-     background: var(--color-white);
+     background:$color-white;
    
      border: 1px solid rgba(0, 0, 0, 0.1);
      border-radius: 50%;
@@ -80,8 +80,8 @@
   
   .form-batton:hover,
   .form-batton:focus {
-  color: var(--hover-color);
-  border: 1px solid var(--logo-color);
+  color:$hover-color;
+  border: 1px solid$logo-color;
   }
   
   
@@ -104,18 +104,18 @@
   
     
     .form__label:focus + .form__input{
-      color:var(--logo-color)
+      color:$logo-color;
     }
     
     .form__input{
   margin-top: 4px;
     }
     .form__input:focus+.form__icon{
-      color: var(--logo-color);
+      color:$logo-color;
       
     }
     .form__input:checked {
-      border: 1px solid var(--logo-color);
+      border: 1px solid $logo-color;
       border-radius: 4px;
     }
   
@@ -124,14 +124,14 @@
     position:absolute;
    bottom: 14px;
     left: 15px;
-    color: var(--primary-text-color);
+    color:$primary-text-color;
   
   }
   
     .form__icon:hover,
     .form__icon:focus{
       fill: currentColor;
-      color: var(--logo-color);
+      color:$logo-color;
     }
   
   .form-title{
@@ -220,7 +220,7 @@
    
    
     
-    color: var(--accent-color);
+    color:$accent-color;
     background-color:rgba(33, 150, 243, 1);
     border-radius: 4px;
     border:transparent;
@@ -241,7 +241,7 @@
     align-items: center;
     
     margin-top: 20px;
-    color: var(--title-text-color);
+    color:$title-text-color;
   
   }
     .checkbox__icon{
@@ -287,12 +287,12 @@
     border: 2px solid rgba(33, 33, 33, 1); 
     /* box-sizing:content-box; */
     border-radius: 2px;
-    background-color: var(--accent-color);
+    background-color:$accent-color;
     }
   
     .check__input:checked + .check__box{
-      background-color: var(--logo-color);
-      border: 2px solid var(--logo-color); 
+      background-color:$logo-color;
+      border: 2px solid$logo-color; 
        border-radius: 2px;
        background-origin: border-box;
        background-image: url(../images/check.svg);
@@ -300,7 +300,7 @@
   
   
     .check__link{
-    color: var(--logo-color);
+    color:$logo-color;
     text-decoration: underline;
   
   }
