@@ -64,7 +64,7 @@
              <div class="hero">
                   <h2 class="hero__title">
                     ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h2>
-                  <button type="button" class=" button button-modal"data-modal-open>
+                  <button type="button" class="button-service  button-modal"data-modal-open>
                       Заказать услугу</button>
             </div>
         </section>
@@ -405,7 +405,7 @@
             
       <h2 class="footer-form__title" >ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
       <form class="form-footer">
-          <label class="footer-form__label" for="email"> </label>
+          <label class="footer-modal__label" for="email"> </label>
           <input class="form-footer__input" 
                   type="email"
                   id="email"
@@ -432,24 +432,24 @@
 
 <div class="backdrop is-hidden"  data-modal>
                               
-  <form class="form!" name="form" action="#" autocomplete="off" novalidate>
+  <form class="modal_form" name="form" action="#" autocomplete="off" novalidate>
 
-   <button data-modal-close  class="footer-form-batton" type="button" >  
+   <button data-modal-close  class="modal_form__batton" type="button" >  
      <svg class="footer-icon-close"  width="30" height="30"> 
         <use class="footer-icon-link" href="./images/icons.svg#close"> </use>
     </svg>
  </button>
 
 
-     <h2 class="footer-form-title">Оставьте свои данные, мы вам перезвоним</h2>
+     <h2 class="modal_form__title">Оставьте свои данные, мы вам перезвоним</h2>
 
     
-     <div class="footer-form-field">
-                     <label class="form__label" for="name">
+     <div class="modal">
+                     <label class="modal__label" for="name">
                        Имя
-                       <input class="form__input" type="name" id="name" autofocus>    
+                       <input class="modal__input" type="name" id="name" autofocus>    
                                       
-                             <svg class="form__icon" width="12" height="12">
+                             <svg class="modal__icon" width="12" height="12">
                                <use href="./images/icons.svg#person"></use>
                              </svg>
                      </label>  
@@ -457,12 +457,12 @@
                            </div>
 
        
-     <div class="footer-form-field">
-                     <Label class="form__label" for="tel" >
+     <div class="modal">
+                     <Label class="modal__label" for="tel" >
                        Телефон
-                       <input class="form__input" id="tel" type="tel">
+                       <input class="modal__input" id="tel" type="tel">
                      
-                       <svg class="form__icon" width="13" height="13">
+                       <svg class="modal__icon" width="13" height="13">
                          <use href="./images/icons.svg#phone"></use>
                        </svg>
                      </Label>    
@@ -471,12 +471,12 @@
            </div>
       
 
-     <div class="footer-form-field">
-                 <label class="form__label" for="mail">
+     <div class="modal">
+                 <label class="modal__label" for="mail">
                    Почта
-                   <input class="form__input" id="mail" type="email">
+                   <input class="modal__input" id="mail" type="email">
                                           
-                   <svg class="form__icon" width="15" height="12">
+                   <svg class="modal__icon" width="15" height="12">
                      <use href="./images/icons.svg#e-mail"></use>
                    </svg>
                  </label>
@@ -484,9 +484,9 @@
       </div>
          
      
-     <div class="footer-form-field__comment">
-             <label class="form__label comment__label" for="comment">Комментарий</label>
-                   <textarea class="comment__textarea" 
+     <div class="modal__comment">
+             <label class="modal__label comment__label" for="comment">Комментарий</label>
+                   <textarea class="modal__textarea" 
                    name="comment"
                    id="comment"
                    placeholder="Введите текст"></textarea>
