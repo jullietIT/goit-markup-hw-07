@@ -3,28 +3,17 @@
     display: flex;
   align-items: center;
   justify-content:center; 
-  
+    &__block{
+      margin-right: 30px;
+      width: 170px;
+      height: 92px;
+      
+      }
+      
   }
-  .clients__block{
-  margin-right: 30px;
-  width: 170px;
-  height: 92px;
+
   
-  }
-  
-  .clients__block:nth-child(6) {
-    margin-right: 0px;
-  }
-   
-  .clients__link:hover,
-  .clients__link:focus{ 
-  fill: currentColor;
-  color:$logo-color;
-  border: 1px solid $logo-color;
-  
-  } 
-  
-  
+ 
   .clients__link{
     display: flex;
     align-items: center; 
@@ -49,9 +38,9 @@
   
   width: 106px;
   height: 60px;
-  
-  
+    
   }
+  
    .clients__logo{
    display: flex;
   align-items: center; 

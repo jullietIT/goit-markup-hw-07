@@ -525,22 +525,10 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 .clients__block {
   margin-right: 30px;
   width: 170px;
   height: 92px;
-}
-
-.clients__block:nth-child(6) {
-  margin-right: 0px;
-}
-
-.clients__link:hover,
-.clients__link:focus {
-  fill: currentColor;
-  color: #2196f3;
-  border: 1px solid #2196f3;
 }
 
 .clients__link {
@@ -972,6 +960,7 @@ img {
   padding: 40px;
   margin-left: auto;
   margin-right: auto;
+  /* кнопка закрытия */
 }
 .modal_form__title {
   color: #212121;
@@ -982,9 +971,7 @@ img {
   text-align: center;
   margin-bottom: 12px;
 }
-
-/* кнопка закрытия */
-.modal_form__batton {
+.modal_form__button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -1015,8 +1002,8 @@ img {
   display: inline-flex;
 }
 
-.form-batton:hover,
-.form-batton:focus {
+.form-button:hover,
+.form-button:focus {
   border: 1px solid #2196f3;
 }
 
@@ -1024,7 +1011,6 @@ img {
   position: relative;
   margin-bottom: 10px;
 }
-
 .modal__label {
   display: block;
   left: 14px;
@@ -1032,34 +1018,29 @@ img {
   line-height: 1.2;
   color: #757575;
 }
-
-.modal__label:focus + .modal__input {
-  color: #2196f3;
-}
-
 .modal__input {
   margin-top: 4px;
 }
-
-.modal__input:focus + .modal__icon {
-  color: #2196f3;
-}
-
 .modal__input:checked {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-
 .modal__icon {
   position: absolute;
   bottom: 14px;
   left: 15px;
   color: #212121;
 }
-
-.modal__icon:hover,
-.modal__icon:focus {
+.modal__icon:hover, .modal__icon:focus {
   fill: currentColor;
+  color: #2196f3;
+}
+
+.modal__input:focus + .modal__icon {
+  color: #2196f3;
+}
+
+.modal__label:focus + .modal__input {
   color: #2196f3;
 }
 
