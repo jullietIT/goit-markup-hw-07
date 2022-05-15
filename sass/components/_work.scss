@@ -4,8 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  }
+      }
   
   .features{
     display: flex;
@@ -61,20 +60,42 @@
   padding-top: 0px;
 }
 
-  .user-foto{
+  .work-foto{
     display:flex;
     
 
   
   }
 
-.user-foto-item{
+.work-foto__item{
   margin-right: 30px;
-
+ 
   position: relative;
 }
 
-.user-foto-item:nth-child(3){
+.work-foto-item:nth-child(3){
      margin-right: 0;
    }
+
+   
+    .label-text {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin:0;
+      width: 370px;
+      height: 70px;
+      background-color: rgba(47, 48, 58, 0.8);
+                 &__item {
+                  color: $accent-color;
+                 font-weight: 700;
+                 font-size: 14px;
+                 Line-height: 1.2;
+                }
+   }
+
+   
 

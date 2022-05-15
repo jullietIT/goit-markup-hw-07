@@ -1,5 +1,7 @@
-@import"./utils/normalise";
 @import "./utils/variables";
+@import"./utils/normalise";
+
+
 
 // header
 @import"./components/logo";
@@ -14,6 +16,7 @@
 
 @import"./components/footer";
 
+// Modal
 @import"./components/modal";
 
 
