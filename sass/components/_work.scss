@@ -56,4 +56,25 @@
      text-align: left;
      }
   
+  /*Чем мы занимаемся*/
+.section-user{
+  padding-top: 0px;
+}
+
+  .user-foto{
+    display:flex;
+    
+
   
+  }
+
+.user-foto-item{
+  margin-right: 30px;
+
+  position: relative;
+}
+
+.user-foto-item:nth-child(3){
+     margin-right: 0;
+   }
+
