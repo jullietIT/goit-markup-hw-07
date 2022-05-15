@@ -5,6 +5,7 @@
     padding-bottom: 94px;
   }
   
+  
   .hero{
      background-color:$color-block;
      background-image: linear-gradient( to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-image.jpg");
@@ -20,20 +21,22 @@
      text-align: center;
      background-position: center;
 
-            &_title{
-                font-size: 44px;
-                font-style: normal;
-                font-weight: 900;
-                line-height: 1.4;
-                letter-spacing: 0.06em;
-                text-align: center;
-                margin-bottom: 30px;
-  
-             }
+          
   
   }
+  .hero__title{
+   font-size: 44px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 1.4;
+   letter-spacing: 0.06em;
+   text-align: center;
+   margin-bottom: 30px;
+
+}
   
-  .button-service{
+  .button--modal{
+  
      color: $accent-color; 
      background-color: $logo-color;
      font-size: 16px;
@@ -43,19 +46,18 @@
      text-align: center;
      cursor: pointer;
    
-  
-     border-radius: 4px;
+       border-radius: 4px;
      padding: 10px 32px;
      border:transparent;
   
      transition-property: background-color;
      transition-duration: 250ms;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      
+       }
   
-  }
-  
-  .button-service:hover,
-  .button-service:focus {
+  .button--modal:hover,
+  .button--modal:focus {
     background-color: #188CE8;
   
   }

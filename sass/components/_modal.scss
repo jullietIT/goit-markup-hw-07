@@ -24,7 +24,7 @@
   
   
   
-  .form{
+  .modal{
     position: absolute;
     top:50%;
     left: 50%;
@@ -62,7 +62,7 @@
      width: 30px;
      height: 30px;
      padding: 0;
-     background:$color-white;
+     background-color:$color-white;
    
      border: 1px solid rgba(0, 0, 0, 0.1);
      border-radius: 50%;
