@@ -52,6 +52,20 @@ img {
   padding: 0 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .title {
   color: #212121;
   margin-bottom: 50px;
@@ -60,6 +74,11 @@ img {
   font-weight: 700;
   line-height: 1.16;
   text-align: center;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*logo*/
@@ -77,6 +96,10 @@ img {
 .logo__black {
   color: #212121;
   margin-top: 32px;
+}
+
+.logo__white {
+  color: #ffffff;
 }
 
 /* header */
@@ -235,11 +258,6 @@ img {
 }
 
 /*main-index шапка*/
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .hero {
   background-color: #2F303A;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/background-image.jpg");
@@ -254,7 +272,6 @@ img {
   text-align: center;
   background-position: center;
 }
-
 .hero__title {
   font-size: 44px;
   font-style: normal;
@@ -284,9 +301,7 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button-modal:hover,
-.button-modal:focus {
+.button-modal:hover, .button-modal:focus {
   background-color: #188CE8;
 }
 
@@ -749,10 +764,6 @@ img {
   margin-top: 20px;
 }
 
-.address__link {
-  margin-bottom: 9px;
-}
-
 .address__link:nth-child(3) {
   margin-bottom: 0px;
 }
@@ -783,10 +794,6 @@ img {
 .adress__contact:hover,
 .adress__contact:focus {
   color: #757575;
-}
-
-.logo__white {
-  color: #ffffff;
 }
 
 .footer-form {

@@ -1,10 +1,6 @@
 
 /*main-index шапка*/
-.section{
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  
+
   
   .hero{
      background-color:$color-block;
@@ -21,18 +17,19 @@
      text-align: center;
      background-position: center;
          
-  
-  }
-  .hero__title{
-   font-size: 44px;
-   font-style: normal;
-   font-weight: 900;
-   line-height: 1.4;
-   letter-spacing: 0.06em;
-   text-align: center;
-   margin-bottom: 30px;
+          &__title{
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 1.4;
+            letter-spacing: 0.06em;
+            text-align: center;
+            margin-bottom: 30px;
+        
+   }
 
-}
+  }
+
   
   .button-modal{
   
@@ -53,10 +50,12 @@
      transition-duration: 250ms;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       
+        &:hover,
+        &:focus {
+          background-color: #188CE8;
+        
+        }
+
        }
   
-  .button-modal:hover,
-  .button-modal:focus {
-    background-color: #188CE8;
   
-  }
