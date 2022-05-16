@@ -81,6 +81,29 @@ img {
   padding-bottom: 94px;
 }
 
+.button-service {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.9;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: transparent;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-service:hover, .button-service:focus {
+  background-color: #188CE8;
+}
+
 /*logo*/
 .logo {
   color: #2196f3;
@@ -229,29 +252,6 @@ img {
   margin-right: 50px;
 }
 
-.button-service {
-  color: #ffffff;
-  background-color: #2196f3;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.9;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 4px;
-  padding: 10px 32px;
-  border: transparent;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button-service:hover, .button-service:focus {
-  background-color: #188CE8;
-}
-
 /*main-index шапка*/
 .hero {
   background-color: #2F303A;
@@ -374,7 +374,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  width: 370px;
+  width: 360px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
@@ -764,7 +764,7 @@ img {
   -ms-flex-align: center;
   align-items: center;
 }
-.footer-iconlist {
+.footer-icon__list {
   margin-right: 10px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -934,6 +934,13 @@ img {
 }
 .modal__input {
   margin-top: 4px;
+  width: 100%;
+  height: 2.5rem;
+  padding: 3px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  padding-left: 42px;
 }
 .modal__input:checked {
   border: 1px solid #2196f3;
@@ -954,34 +961,11 @@ img {
   color: #2196f3;
 }
 
-.modal__label:focus + .modal__input {
+.comment__label:focus + .modal__input {
   color: #2196f3;
 }
 
-.form-title {
-  font-size: 20px;
-  font-weight: 700;
-  Line-height: 1.17;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 12px;
-}
-
-.modal__input {
-  width: 100%;
-  height: 2.5rem;
-  padding: 3px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  cursor: pointer;
-  padding-left: 42px;
-}
-
-.modal__textarea {
+.comment__textarea {
   width: 100%;
   height: 7.5rem;
   margin-top: 4px;
@@ -991,7 +975,7 @@ img {
   padding: 12px 16px;
 }
 
-.modal__label:focus-within > .form-icon {
+.comment__label:focus-within > .form-icon {
   color: #188CE8;
   border-radius: 4px;
   border: 2px solid #2196F3;
@@ -1023,13 +1007,9 @@ textarea {
 }
 
 .form__button {
-  font-size: 16px;
-  font-weight: 700;
-  Line-height: 1.9;
   width: 200px;
   height: 50px;
   margin-top: 30px;
-  cursor: pointer;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
