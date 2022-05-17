@@ -1,6 +1,6 @@
 
    /* header */
-   .header {
+   .header__container {
     display: flex;
     align-items: center;
     margin-bottom: -1px;
@@ -29,13 +29,13 @@
       display: block;
       font-style: Medium;
       line-height:1.1;
-      color:     $primary-text-color;
+      color: $logo-color;
       padding:32px 0;
     
     }
 
     &__link{
-      color:     $title-text-color;
+      color:$primary-text-color;
       padding: 32px 0;
     
     
@@ -111,8 +111,7 @@
       }
       
 
-      &__link--mail,
-      &__link--phone {
+         &__link {
         display: block;
         padding:  32px 0;
         color:$title-text-color;
@@ -124,22 +123,16 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
-
-        &__icon--phone,
-        &__icon--mail
-          {
+ 
+        &__icon  {
           margin-right: 10px;}
 
          &__link:hover,
          &__link:focus,
-         &__link--mail:hover,
-         &__link--mail:focus,
-         &__link--phone:hover,
-         &__link--phone:focus,
-         &__icon-mail:hover,
-         &__icon-mail:focus,
-         &__icon--phone:hover
-         &__icon--phone:focus{
+      
+        
+         &__icon:hover,
+         &__icon:focus{
          color: $logo-color;
 }
    }
