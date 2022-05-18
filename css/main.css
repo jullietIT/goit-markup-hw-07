@@ -81,7 +81,7 @@ img {
   margin-bottom: 50px;
 }
 
-.button-service {
+.button-modal {
   color: #ffffff;
   background-color: #2196f3;
   font-size: 16px;
@@ -100,7 +100,7 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-service:hover, .button-service:focus {
+.button-modal:hover, .button-modal:focus {
   background-color: #188CE8;
 }
 
@@ -500,9 +500,14 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social__link:hover, .social__link:focus {
-  fill: currentColor;
   color: #ffffff;
   background-color: #2196F3;
+}
+
+.social__icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
 
 /*Постоянные клиенты */
@@ -740,7 +745,7 @@ img {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address__contact__contact:hover, .address__contact__contact:focus {
+.address__contact:hover, .address__contact:focus {
   color: #757575;
 }
 
@@ -757,7 +762,8 @@ img {
           flex-direction: column;
   margin-left: auto;
 }
-.footer-form__title {
+
+.footer__title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
@@ -817,14 +823,6 @@ img {
   fill: currentColor;
 }
 
-.form-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
 .form-footer__input {
   width: 358px;
   height: 50px;
@@ -838,15 +836,14 @@ img {
   border-radius: 4px;
   padding-left: 16px;
 }
+
 .form-footer__button {
   margin-left: 12px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
+
 .form-footer__icon {
   width: 20px;
   height: 20px;
@@ -890,17 +887,9 @@ img {
   padding: 40px;
   margin-left: auto;
   margin-right: auto;
-  /* кнопка закрытия */
 }
-.modal_form__title {
-  color: #212121;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  text-align: center;
-  margin-bottom: 12px;
-}
+
+/* кнопка закрытия */
 .modal_form__button {
   position: absolute;
   top: 8px;
@@ -925,22 +914,21 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-button {
-  margin-left: 12px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.form-button:hover,
-.form-button:focus {
-  border: 1px solid #2196f3;
+.modal-form__title {
+  color: #212121;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 12px;
 }
 
 .modal {
   position: relative;
   margin-bottom: 10px;
 }
+
 .modal__label {
   display: block;
   left: 14px;
@@ -948,6 +936,7 @@ img {
   line-height: 1.2;
   color: #757575;
 }
+
 .modal__input {
   margin-top: 4px;
   width: 100%;
@@ -962,6 +951,7 @@ img {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
+
 .modal__icon {
   position: absolute;
   bottom: 14px;
@@ -1022,37 +1012,11 @@ textarea {
   resize: none;
 }
 
-.form__button {
-  width: 200px;
-  height: 50px;
-  margin-top: 30px;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  /* Кнопка по центру */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
-  background-color: rgb(33, 150, 243);
-  border-radius: 4px;
-  border: transparent;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-/* 
-
-/* checkbox */
-.checkbox__form {
+/* check */
+.check {
   font-size: 14px;
   font-weight: 400;
-  Line-height: 1.7;
+  line-height: 1.7;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1063,21 +1027,7 @@ textarea {
   color: #757575;
 }
 
-.checkbox__icon {
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  background-color: #f4f6f9;
-  color: #ffffff;
-  border: 2px solid rgb(33, 33, 33);
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  border-radius: 2px;
-  margin-right: 7px;
-}
-
-/* check */
-.check {
+.check__label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1103,7 +1053,6 @@ textarea {
   height: 15px;
   margin-right: 8px;
   border: 2px solid rgb(33, 33, 33);
-  /* box-sizing:content-box; */
   border-radius: 2px;
   background-color: #ffffff;
 }
@@ -1119,4 +1068,19 @@ textarea {
 .check__link {
   color: #2196f3;
   text-decoration: underline;
+}
+
+.modal-form__button {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* Кнопка по центру */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }/*# sourceMappingURL=main.css.map */
